@@ -1,0 +1,39 @@
+body{
+	display: flex;
+	place-items: center;
+	flex-direction: column;
+}
+
+img {
+	width: 300px;
+}
+
+button{
+	background-color: white;
+	border: 2px solid black;
+	font-size: 24px;
+	color: black;
+	font-weight: bold;
+	border-radius: 8px;
+
+}
+
+
+
+
+
+#addButton {
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	
+	border-radius: 1000px;
+	text-align: center;
+	position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#addButton a{
+	color: white;
+}
